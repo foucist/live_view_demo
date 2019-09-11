@@ -1,37 +1,37 @@
-<section class="phx-hero">
-  <h1>My Phrenzy Entry</h1>
-  <p><%= link "This clock", to: Routes.live_path(@conn, LiveViewDemoWeb.ClockLive) %> is a basic live view in action.</p>
+<section class="bg-gray-200 rounded text-center my-4 py-6">
+  <h1 class="text-4xl my-6">My Phrenzy Entry</h1>
+  <p class="text-xl my-6"><%= link "This clock", class: "text-blue-600", to: Routes.live_path(@conn, LiveViewDemoWeb.ClockLive) %> is a basic live view in action.</p>
 </section>
 
-<section class="row">
-  <article class="column">
-    <h2>Resources</h2>
-    <ul>
+<section class="flex justify-between">
+  <article class="flex-1">
+    <h2 class="text-3xl my-6">Resources</h2>
+    <ul class="list-disc list-inside">
       <li>
-        <a href="https://github.com/phoenixframework/phoenix_live_view">Phoenix LiveView README</a>
+        <a href="https://github.com/phoenixframework/phoenix_live_view" class="text-blue-600">Phoenix LiveView README</a>
       </li>
       <li>
-        <a href="https://hexdocs.pm/phoenix/overview.html">Phoenix Guides &amp; Docs</a>
+        <a href="https://hexdocs.pm/phoenix/overview.html" class="text-blue-600">Phoenix Guides &amp; Docs</a>
       </li>
       <li>
         <a href="https://github.com/phoenixframework/phoenix">Phoenix Source</a>
       </li>
       <li>
-        <a href="https://github.com/phoenixframework/phoenix/blob/v1.4/CHANGELOG.md">Phoenix v1.4 Changelog</a>
+        <a href="https://github.com/phoenixframework/phoenix/blob/v1.4/CHANGELOG.md" class="text-blue-600">Phoenix v1.4 Changelog</a>
       </li>
     </ul>
   </article>
-  <article class="column">
-    <h2>Help</h2>
-    <ul>
+  <article class="flex-1">
+    <h2 class="text-3xl my-6" class="text-blue-600">Help</h2>
+    <ul class="list-disc list-inside">
       <li>
-        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
+        <a href="https://elixirforum.com/c/phoenix-forum" class="text-blue-600">Forum</a>
       </li>
       <li>
-        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
+        <a href="https://webchat.freenode.net/?channels=elixir-lang" class="text-blue-600">#elixir-lang on Freenode IRC</a>
       </li>
       <li>
-        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
+        <a href="https://twitter.com/elixirphoenix" class="text-blue-600">Twitter @elixirphoenix</a>
       </li>
     </ul>
   </article>
